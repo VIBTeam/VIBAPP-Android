@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.makers.vibapp.fragment.NotificationEditorFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin.standard"
+                android:text="Selecciona Sonido"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewNotificationSound"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:clipToPadding="false"
+                android:padding="@dimen/margin.standard" />
+
+            <TextView
+                android:id="@+id/textViewSensorEditorNotificationTitle"
+                style="@style/Base.TextAppearance.AppCompat.Display1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin.standard"
+                android:text="Notificación" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabNotificationEditorFragmentSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_nav_menu_save" />
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/margin.half"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin.one_quarter">
+        <TextView
+            android:id="@+id/textViewSensorRowTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin.one_quarter"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            tools:text="Sensor del Horno"/>
+
+        <TextView
+            android:id="@+id/textViewSensorRowMac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin.one_quarter"
+            android:layout_below="@+id/textViewSensorRowTitle"
+            android:textAllCaps="true"
+            tools:text="00:B0:D0:86:BB:f7"/>
+
+        <Switch
+            android:id="@+id/switchSensorRowEnable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/margin.one_quarter"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

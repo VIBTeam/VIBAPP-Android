@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lmbluetoothsdk-1.0.1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/co.lujun/lmbluetoothsdk/1.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/co.lujun/lmbluetoothsdk/1.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.lujun/lmbluetoothsdk/1.0.1/8b3b8bcd713aebdf60ed433ab470eaff4d5ea1d3/lmbluetoothsdk-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
